@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBD7E3"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="355dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="243dp"
+        android:layout_height="260dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="4dp" />
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="243dp"
+        android:layout_height="252dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="9dp" />
+
+    <Button
+        android:id="@+id/urunListeButon"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:drawableBottom="@mipmap/liste"
+        tools:layout_editor_absoluteX="132"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/aramaButon"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="50dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:drawableBottom="@mipmap/ara" />
+
+    <Button
+        android:id="@+id/bildirimButon"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="50dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:drawableBottom="@mipmap/bildirim" />
+
+    <Button
+        android:id="@+id/urunEkleButon"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:drawableBottom="@mipmap/ekle" />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="364dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="517dp"
+        android:background="@drawable/login_text_arka"
+        android:gravity="center"
+
+        android:hint="Lütfen Eklenecek Ürün Linkini Giriniz..." />
+
+    <Button
+        android:id="@+id/bit"
+        android:layout_width="105dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/gg" />
+
+</RelativeLayout>
